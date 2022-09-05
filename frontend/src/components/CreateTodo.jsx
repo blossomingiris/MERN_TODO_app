@@ -13,7 +13,6 @@ export function CreateTodo({ theme }) {
     setData((data) => ({ ...data, [e.target.name]: e.target.value }))
   }
 
-
   //add todo
   function handleSubmit(e) {
     e.preventDefault()
