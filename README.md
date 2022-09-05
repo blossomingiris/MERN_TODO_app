@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/102720711/188470913-a1e59870-7572-4cf5-8f8f-f9425d7d9964.png" width="400" height="400" align="right" /> 
+<img src="https://user-images.githubusercontent.com/102720711/188471468-b73b531c-9600-48bb-8ddc-1dbf77aca1d9.png" width="400" height="400" align="right" /> 
 
 
 ## ToDo application 🚀
@@ -8,5 +8,4 @@
 - styling with Sass
 - 2 mode: dark and light :last_quarter_moon:
 - minimalistic neumorphic design
-
 
