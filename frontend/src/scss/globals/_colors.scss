@@ -1,0 +1,21 @@
+:root {
+  /* Light Theme */
+
+  --bg-color: #f5f6f7;
+  --greyLight-1: #eaeff5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+
+  /* Dark Theme */
+  --bg-color-dark: #3a3842;
+  --greyDark-1: rgba(77, 71, 100, 0.4);
+  --greyDark-2: rgba(0, 0, 0, 0.2);
+
+  /*colors for both themes*/
+  --text-color: #4a5568;
+  --primary-light: #e067a6;
+  --primary: #d53f8c;
+  --primary-dark: #a10355;
+  --white: #ffffff;
+}
