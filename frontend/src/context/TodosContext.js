@@ -20,7 +20,6 @@ export const todosReducer = (state, action) => {
       }
 
     case 'UPDATE_TODO': {
-			console.log('updating', action.payload)
       const updatedTodos = state.todo.map((t) => {
         if (t._id === action.payload._id) {
           return { ...t, text: action.payload.text }
@@ -33,18 +32,6 @@ export const todosReducer = (state, action) => {
       }
     }
 
-    // case 'UPDATE_TODO':
-    //   console.log('updating', action.payload)
-    //   return state.map.todo((todo) => {
-    //     if (todo._id === action.payload._id) {
-    //       return {
-    //         ...todo,
-    //         text: action.payload.text,
-    //       }
-    //     } else {
-    //       return todo
-    //     }
-    //   })
     default:
       return state
   }

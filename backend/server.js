@@ -23,13 +23,13 @@ app.get('/', (req, res) => res.send('Server up and running'))
 // use routes
 app.use('/api/todo', todo)
 
-//serve static assets if on production
+// Serve static assets if in production
 // if (process.env.NODE_ENV === 'production') {
-//set static folder
+// Set static folder
 //   app.use(express.static('frontend/build'))
 
 //   app.get('*', (req, res) => {
-//     res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+//     res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
 //   })
 // }
 
