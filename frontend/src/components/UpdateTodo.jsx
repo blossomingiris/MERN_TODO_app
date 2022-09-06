@@ -19,7 +19,7 @@ export function UpdateTodo({ _id, handleClose, handleUpdate, theme }) {
     e.preventDefault()
 
     axios
-      .put(`http://localhost:4000/api/todo/${_id}`, data)
+      .put(`https://my-first-mern-todo-app.herokuapp.com/api/todo/${_id}`, data)
       .then((res) => {
         setData({ text: '' })
         dispatch({

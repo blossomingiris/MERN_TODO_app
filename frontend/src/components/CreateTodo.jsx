@@ -25,7 +25,7 @@ export function CreateTodo({ theme }) {
 
     if (inputIsNotEmpty) {
       axios
-        .post('http://localhost:4000/api/todo', data)
+        .post('https://my-first-mern-todo-app.herokuapp.com/api/todo', data)
         .then((res) => {
           setData({ text: '' })
           dispatch({ type: 'CREATE_TODO', payload: res.data })

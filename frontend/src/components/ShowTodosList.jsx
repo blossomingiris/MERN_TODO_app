@@ -13,7 +13,7 @@ export function ShowTodoList({ theme }) {
   //show all todos
   useEffect(() => {
     axios
-      .get('http://localhost:4000/api/todo')
+      .get('https://my-first-mern-todo-app.herokuapp.com/api/todo')
       .then((res) => {
         dispatch({ type: 'SET_TODOS', payload: res.data })
       })
