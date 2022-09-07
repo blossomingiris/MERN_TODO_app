@@ -7,5 +7,6 @@
 :heavy_check_mark: full stack project buit with MERN stack (MongoDB, Express, ReactJS, NodeJS) <br />
 :heavy_check_mark: styling with Sass <br />
 :heavy_check_mark: 2 mode: light & dark :last_quarter_moon: <br />
-:heavy_check_mark: minimalistic neumorphic design <br />
+:heavy_check_mark: minimalistic neumorphic design <br /> <br />
 
+- after deployment app has some problems (fixing in progress)
