@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/102720711/188473139-acd5c6bd-bb66-4cb5-8358-c75137dd3668.png" width="400" height="400" align="right" /> 
+<img src="https://user-images.githubusercontent.com/102720711/203287219-0366fe4b-a603-4a97-9ad3-3d40a4886c83.png" width="400" height="400" align="right" /> 
 
 
 ## ToDo application (MERN) :dart:
@@ -7,4 +7,3 @@
 :heavy_check_mark: Full stack project buit with MERN stack (MongoDB, Express, React, Node) and Sass<br />
 :heavy_check_mark: 2 theme mode: light & dark :last_quarter_moon: <br />
 :heavy_check_mark: minimalistic neumorphic design <br /> <br />
-
