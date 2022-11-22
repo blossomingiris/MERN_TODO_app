@@ -1,18 +1,25 @@
 import { useTodosContext } from '../hooks/useTodosContext'
+import axios from 'axios'
 
 function TodoItem({ data, handleEdit, theme }) {
   const { _id, text } = data
   const { dispatch } = useTodosContext()
 
-  //delete todo
-  const handleDelete = async () => {
-    const response = await fetch(`https://my-first-mern-todo-app.herokuapp.com/api/todo/${_id}`, {
-      method: 'DELETE',
-    })
-    const json = await response.json()
-    if (response.ok) {
-      dispatch({ type: 'DELETE_TODO', payload: json })
-    }
+  //delete single task
+  function handleDelete(e) {
+    e.preventDefault()
+    axios
+      .delete(`/api/todo/${_id}`)
+      .then((res) => {
+        dispatch({
+          type: 'DELETE_TODO',
+          payload: res.data,
+        })
+      })
+      .catch((err) => {
+        console.log('Failed to delete todo')
+        console.log(err.message)
+      })
   }
 
   return (

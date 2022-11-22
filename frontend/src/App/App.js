@@ -25,7 +25,7 @@ function App() {
               <CreateTodo theme={theme} />
             </div>
             <Routes>
-              <Route path='/' element={<ShowTodoList theme={theme} />} />
+              <Route path='/' element={<ShowTodoList theme={theme} index />} />
             </Routes>
           </BrowserRouter>
         </div>

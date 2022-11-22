@@ -1,5 +1,4 @@
 {
-  "homepage": "https://blossomingiris.github.io/MERN_TODO_app",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "dotenv": "^16.0.2",
+    "netlify-cli": "^11.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set DISABLE_ESLINT_PLUGIN=true && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "DISABLE_ESLINT_PLUGIN=true react-scripts test"
   },

@@ -1,13 +1,5 @@
 const TodoModel = require('../models/todo')
 
-// const getListTodos = (req, res) => {
-//   TodoModel.find()
-//     .then((todo) => res.json(todo))
-//     .catch((err) =>
-//       res.status(404).json({ message: 'Todo not found', error: err.message })
-//     )
-// }
-
 //get all todos
 const getListTodos = async (req, res) => {
   const todo = await TodoModel.find()
@@ -23,7 +15,7 @@ const getTodo = (req, res) => {
     )
 }
 
-//create Todo
+//create task
 const createTodo = async (req, res) => {
   const { text } = req.body
 
@@ -72,18 +64,10 @@ const deleteTodo = async (req, res) => {
   res.status(200).json(todo)
 }
 
-//delete all todos
-
-const deleteListTodos = async (req, res) => {
-  const todo = await TodoModel.deleteMany()
-  res.status(200).json(todo)
-}
-
 module.exports = {
   createTodo,
   getListTodos,
   getTodo,
   deleteTodo,
   updateTodo,
-  deleteListTodos,
 }

@@ -1,7 +1,7 @@
-@import '../scss/globals/index.scss';
+@import '../style/globals/index.scss';
 
 .app {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -286,4 +286,15 @@
 
 #dark.container__content__input {
   box-shadow: $shadow-dark;
+}
+
+@media screen and (max-width: 480px) {
+  .app__container {
+    width: 85%;
+    height: 80%;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
 }

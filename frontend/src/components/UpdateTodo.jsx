@@ -12,14 +12,11 @@ export function UpdateTodo({ _id, handleClose, handleUpdate, theme }) {
     setData((data) => ({ ...data, [e.target.name]: e.target.value }))
   }
 
-  console.log(data.text)
-
-  // update todo
+  // update task
   function handleSubmit(e) {
     e.preventDefault()
-
     axios
-      .put(`https://my-first-mern-todo-app.herokuapp.com/api/todo/${_id}`, data)
+      .put(`/api/todo/${_id}`, data)
       .then((res) => {
         setData({ text: '' })
         dispatch({

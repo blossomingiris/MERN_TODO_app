@@ -1,6 +1,6 @@
 import { useReducer, createContext } from 'react'
 
-export const TodosContext = createContext()
+export const TodosContext = createContext([[], () => {}])
 
 export const todosReducer = (state, action) => {
   switch (action.type) {

@@ -8,12 +8,11 @@ export function CreateTodo({ theme }) {
   const [data, setData] = useState({ text: '' })
   const { dispatch } = useTodosContext()
 
-  //crab user input
   function handleChange(e) {
     setData((data) => ({ ...data, [e.target.name]: e.target.value }))
   }
 
-  //add todo
+  //create new todo task
   function handleSubmit(e) {
     e.preventDefault()
 
@@ -25,11 +24,10 @@ export function CreateTodo({ theme }) {
 
     if (inputIsNotEmpty) {
       axios
-        .post('https://my-first-mern-todo-app.herokuapp.com/api/todo', data)
+        .post('/api/todo', data)
         .then((res) => {
           setData({ text: '' })
           dispatch({ type: 'CREATE_TODO', payload: res.data })
-          console.log(res.data.message)
         })
         .catch((err) => {
           console.log("Error couldn't create todo item")
