@@ -7,4 +7,4 @@
 :heavy_check_mark: full stack project built with MERN stack (MongoDB, Express, React, Node) and Sass<br />
 :heavy_check_mark: includes light & dark mode<br />
 :heavy_check_mark: designed with minimalistic approach  <br />
-:heavy_check_mark: demo is[here](https://frontend-kzea.onrender.com)
+:heavy_check_mark: demo is [here](https://frontend-kzea.onrender.com)
