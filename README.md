@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/102720711/203614271-6b742d2c-22f6-4f67-b3f8-b1ba3354f23e.png" width="400" height="400" align="right" /> 
+
 
 
 ## ToDo application (MERN) :dart:
@@ -10,6 +10,7 @@
 :heavy_check_mark: designed with minimalistic approach  <br />
 :heavy_check_mark: demo is [here](https://frontend-kzea.onrender.com)
 
+<img src="https://user-images.githubusercontent.com/102720711/203614271-6b742d2c-22f6-4f67-b3f8-b1ba3354f23e.png" width="400" height="400" align="right" /> 
 
 ## How start to use app?
 - Make sure you have own credentials in backend/.env for MONGO_URI and PORT.
