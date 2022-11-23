@@ -8,3 +8,10 @@
 :heavy_check_mark: includes light & dark mode<br />
 :heavy_check_mark: designed with minimalistic approach  <br />
 :heavy_check_mark: demo is [here](https://frontend-kzea.onrender.com)
+
+
+## How to run app?
+- Make sure you have own credentials in backend/.env for MONGO_URI and PORT.
+1. Open your terminal on frontend folder and run command "npm install"
+2. Open your terminal on backend folder and run command "npm install"
+3. Having terminal open on backend run command "npm run app"
