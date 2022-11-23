@@ -10,7 +10,7 @@
 :heavy_check_mark: demo is [here](https://frontend-kzea.onrender.com)
 
 
-## How to run app?
+## How start to use app?
 - Make sure you have own credentials in backend/.env for MONGO_URI and PORT.
 1. Open your terminal on frontend folder and run command "npm install"
 2. Open your terminal on backend folder and run command "npm install"
