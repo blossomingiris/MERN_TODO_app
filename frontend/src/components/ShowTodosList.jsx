@@ -18,7 +18,7 @@ export function ShowTodoList({ theme }) {
         dispatch({ type: 'SET_TODOS', payload: res.data })
       })
       .catch((err) => {
-        console.log(err.message)
+        console.log(err)
       })
   }, [dispatch])
 
