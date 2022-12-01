@@ -13,8 +13,8 @@ Todo application allows to manage a list of tasks to do and performs adding, del
  - Sass 
 
  ## Demo: 
-is [here](https://frontend-kzea.onrender.com) </br>
-Note: depends of internet connection to upload list of todos from database sometimes took more time 
+Is [here](https://frontend-kzea.onrender.com) </br>
+- depends of internet connection to upload list of todos from database sometimes took more time 
 
 ## Running application
 - Make sure you have own credentials in backend/.env for MONGO_URI and PORT.
