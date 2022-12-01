@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/102720711/203614271-6b742d2c-22f6-4f67-b3f8-b1ba3354f23e.png" align="right" /> 
+<img src="https://user-images.githubusercontent.com/102720711/203614271-6b742d2c-22f6-4f67-b3f8-b1ba3354f23e.png" width = "450" align="right" /> 
 
 # ToDo application (MERN) :dart:
 
