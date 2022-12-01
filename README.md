@@ -1,13 +1,18 @@
-## ToDo application (MERN) :dart:
+# ToDo application (MERN) :dart:
 <img src="https://user-images.githubusercontent.com/102720711/203614271-6b742d2c-22f6-4f67-b3f8-b1ba3354f23e.png" width="400" height="400" align="right" /> 
 
-:heavy_check_mark: allows to manage a list of tasks to do and performs adding, deleting, editing state of each task <br />
+## Description: 
+Todo application allows to manage a list of tasks to do and performs adding, deleting, editing state of each task. Includes light & dark mode. <br />
 
-:heavy_check_mark: full stack project built with MERN stack (MongoDB, Express, React, Node) and Sass<br />
-:heavy_check_mark: includes light & dark mode<br />
-:heavy_check_mark: designed with minimalistic approach  <br />
+## Technologies: 
+ - MongoDB 
+ - Express.js
+ - React.js
+ - Node.js
+ - Sass 
+
+ ## Demo: 
 :heavy_check_mark: demo is [here](https://frontend-kzea.onrender.com)
-
 Note: for upload list of todos from database sometimes need more time
 
 ## Running application
