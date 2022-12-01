@@ -17,7 +17,7 @@ Todo application allows to manage a list of tasks to do and performs adding, del
 - depends of internet connection to upload list of todos from database sometimes took more time 
 
 ## Running application
-- Make sure you have own credentials in backend/.env for MONGO_URI and PORT.
+- make sure you have own credentials in backend/.env for MONGO_URI and PORT.
 1. Clone the repo or download it
 2. Open your terminal on frontend folder and run command "npm install"
 3. Open your terminal on backend folder and run command "npm install"
