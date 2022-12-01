@@ -10,8 +10,9 @@
 
 Note: for upload list of todos from database sometimes need more time
 
-## How start to use app?
+## Running application
 - Make sure you have own credentials in backend/.env for MONGO_URI and PORT.
-1. Open your terminal on frontend folder and run command "npm install"
-2. Open your terminal on backend folder and run command "npm install"
-3. Having terminal open on backend run command "npm run app"
+1. Clone the repo or download it
+2. Open your terminal on frontend folder and run command "npm install"
+3. Open your terminal on backend folder and run command "npm install"
+4. Having terminal open on backend run command "npm run app"
