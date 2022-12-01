@@ -14,7 +14,7 @@ Todo application allows to manage a list of tasks to do and performs adding, del
 
  ## Demo: 
 [Here](https://frontend-kzea.onrender.com) </br>
-- depends of internet connection to upload list of todos from database sometimes took more time 
+- depends of internet connection to upload list of todos from database sometimes take more time 
 
 ## Running application
 - make sure you have own credentials in backend/.env for MONGO_URI and PORT.
