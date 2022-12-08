@@ -15,7 +15,7 @@ Todo application allows to manage a list of tasks to do and performs adding, del
  ### Demo is [here](https://frontend-kzea.onrender.com) </br>
 - depends of internet connection to upload list of todos from database can take more then few seconds
 
-### Running application
+### Running application:
 - make sure you have own credentials in backend/.env for MONGO_URI and PORT.
 1. Clone the repo or download it
 2. Open your terminal on frontend folder and run command "npm install"
