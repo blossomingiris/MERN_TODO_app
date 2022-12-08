@@ -1,7 +1,6 @@
-<img src="https://user-images.githubusercontent.com/102720711/203614271-6b742d2c-22f6-4f67-b3f8-b1ba3354f23e.png" width = "480"/> 
-
 # ToDo application (MERN) :dart:
 
+<img src="https://user-images.githubusercontent.com/102720711/203614271-6b742d2c-22f6-4f67-b3f8-b1ba3354f23e.png" width = "480" align = "right"/> 
 ### Description: 
 Todo application allows to manage a list of tasks to do and performs adding, deleting, editing state of each task. Includes light & dark mode. <br />
 
