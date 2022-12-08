@@ -12,7 +12,7 @@ Todo application allows to manage a list of tasks to do and performs adding, del
  - Node.js
  - Sass 
 
- ### Demo: [here](https://frontend-kzea.onrender.com) </br>
+ ### Demo is [here](https://frontend-kzea.onrender.com) </br>
 - depends of internet connection to upload list of todos from database can take more then few seconds
 
 ### Running application
