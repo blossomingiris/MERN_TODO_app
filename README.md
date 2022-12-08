@@ -2,18 +2,17 @@
 
 # ToDo application (MERN) :dart:
 
-## Description: 
+### Description: 
 Todo application allows to manage a list of tasks to do and performs adding, deleting, editing state of each task. Includes light & dark mode. <br />
 
-## Technologies: 
+### Technologies: 
  - MongoDB 
  - Express.js
  - React.js
  - Node.js
  - Sass 
 
- ## Demo: 
-[Here](https://frontend-kzea.onrender.com) </br>
+ ### Demo: [Here](https://frontend-kzea.onrender.com) </br>
 - depends of internet connection to upload list of todos from database sometimes take more time 
 
 ## Running application
