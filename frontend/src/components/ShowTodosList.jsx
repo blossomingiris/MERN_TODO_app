@@ -10,8 +10,6 @@ export function ShowTodoList({ theme }) {
   const [open, setOpen] = useState(false)
   const [id, setId] = useState('')
 
-  console.log('todo', todo)
-
   //show all todos
   useEffect(() => {
     axios
