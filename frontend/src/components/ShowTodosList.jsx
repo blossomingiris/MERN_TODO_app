@@ -10,6 +10,8 @@ export function ShowTodoList({ theme }) {
   const [open, setOpen] = useState(false)
   const [id, setId] = useState('')
 
+  console.log('todo', todo)
+
   //show all todos
   useEffect(() => {
     axios
@@ -20,7 +22,7 @@ export function ShowTodoList({ theme }) {
       .catch((err) => {
         console.log(err)
       })
-  }, [dispatch])
+  }, [todo])
 
   //modal window for edit
   function handleEdit(e) {
