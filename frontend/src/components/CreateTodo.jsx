@@ -30,8 +30,7 @@ export function CreateTodo({ theme }) {
           dispatch({ type: 'CREATE_TODO', payload: res.data })
         })
         .catch((err) => {
-          console.log("Error couldn't create todo item")
-          console.log(err.message)
+          alert('Please add some task to todo list')
         })
     }
   }
