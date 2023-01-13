@@ -21,7 +21,7 @@ export function ShowTodoList({ theme }) {
       .catch((err) => {
         console.log(err)
       })
-  }, [])
+  }, [todo])
 
   //get single todo
   const getTodo = (todoId) => {

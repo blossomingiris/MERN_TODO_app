@@ -39,8 +39,6 @@ export function UpdateTodo({
       })
   }
 
-  console.log(singleTodo)
-
   return (
     <form
       className='app__form'
