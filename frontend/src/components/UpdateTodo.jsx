@@ -3,7 +3,13 @@ import { useTodosContext } from '../hooks/useTodosContext'
 import { FaCrosshairs, FaCheck } from 'react-icons/fa'
 import axios from 'axios'
 
-export function UpdateTodo({ _id, handleClose, handleUpdate, theme }) {
+export function UpdateTodo({
+  _id,
+  handleClose,
+  handleUpdate,
+  theme,
+  singleTodo,
+}) {
   const [data, setData] = useState({ text: '' })
   const { dispatch } = useTodosContext()
 
@@ -33,6 +39,8 @@ export function UpdateTodo({ _id, handleClose, handleUpdate, theme }) {
       })
   }
 
+  console.log(singleTodo)
+
   return (
     <form
       className='app__form'
@@ -49,6 +57,7 @@ export function UpdateTodo({ _id, handleClose, handleUpdate, theme }) {
         className='app__form__input'
         onChange={handleChange}
         id={theme}
+        defaultValue={singleTodo.text}
       />
       <div className='app__form__icon'>
         <FaCrosshairs />

@@ -15,7 +15,7 @@ const getTodo = (req, res) => {
     )
 }
 
-//create task
+//create todo
 const createTodo = async (req, res) => {
   const { text } = req.body
 
@@ -31,7 +31,7 @@ const createTodo = async (req, res) => {
       .json({ error: 'Please fill in all fields', emptyFields })
   }
 
-  // add to the database
+  // add todo do db
   try {
     const todo = await TodoModel.create({ text })
     res.status(200).json(todo)
