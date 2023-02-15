@@ -9,10 +9,12 @@ export function ShowTodoList({ theme }) {
   const { todo, dispatch } = useTodosContext()
   const [open, setOpen] = useState(false)
   const [singleTodo, setSingleTodo] = useState({})
+  const [loading, setLoading] = useState(false)
   const [id, setId] = useState('')
 
   //get all todos
   useEffect(() => {
+    setLoading(true)
     axios
       .get('/api/todo')
       .then((res) => {
@@ -21,7 +23,10 @@ export function ShowTodoList({ theme }) {
       .catch((err) => {
         console.log(err)
       })
-  }, [todo])
+      .finally(() => {
+        setLoading(false)
+      })
+  }, [])
 
   //get single todo
   const getTodo = (todoId) => {
@@ -53,17 +58,23 @@ export function ShowTodoList({ theme }) {
 
   return (
     <section>
-      <div>
-        {todo &&
-          todo.map((data) => (
-            <TodoItem
-              data={data}
-              key={data._id}
-              handleEdit={handleEdit}
-              theme={theme}
-            />
-          ))}
-      </div>
+      {loading ? (
+        <div className='loader__wrapper'>
+          <span className='loader'></span>
+        </div>
+      ) : (
+        <div>
+          {todo &&
+            todo.map((data) => (
+              <TodoItem
+                data={data}
+                key={data._id}
+                handleEdit={handleEdit}
+                theme={theme}
+              />
+            ))}
+        </div>
+      )}
       {open ? (
         <section className='update__container' id={theme}>
           <div className='update__container__contents' id={theme}>

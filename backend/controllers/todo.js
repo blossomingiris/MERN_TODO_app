@@ -2,7 +2,7 @@ const TodoModel = require('../models/todo')
 
 //get all todos
 const getListTodos = async (req, res) => {
-  const todo = await TodoModel.find()
+  const todo = await TodoModel.find().sort({ date: -1 })
   res.status(200).json(todo)
 }
 
